@@ -7,7 +7,7 @@
 
 import UIKit
 
-class Item {
+class Item: Equatable {
     var name: String
     var valueInDollars: Int
     var serialNumber: String?
