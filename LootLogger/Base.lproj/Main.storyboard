@@ -82,6 +82,11 @@
                                         <constraint firstAttribute="trailing" secondItem="N7G-RW-08F" secondAttribute="trailing" constant="20" symbolic="YES" id="mtq-ZI-7xj"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="nameLabel" destination="Xdz-HK-9MK" id="HnV-c4-92I"/>
+                                    <outlet property="serialNumberLabel" destination="Mw7-0l-m8Q" id="Ncs-6K-mU0"/>
+                                    <outlet property="valueLabel" destination="N7G-RW-08F" id="BfG-BE-1uI"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
